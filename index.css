@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #FAC68E;  
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+.Container-Header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/*
+Contenedor para main
+*/
+main{
+min-height: 100vh;  
+text-align: center;
+}
+
+.Main-Colum .container{
+    display: flex; 
+    flex-direction: column;
+    
+}
+.Main-Colum h2{
+    font-size: xx-large;
+    
+}
+/*Primera parte donde cometo un erro es en que no me he fijado bien lo que escribo*/
+.Main-Colum .Colum-Item{
+    margin: 1rem;
+    height: auto;
+    width: 10rem;
+    border: 0.1rem solid black;
+    border-radius:3rem;
+    text-align: center;
+    font-size: 2rem;
+    
+}
+.Colum-Button{
+    font-size: 2rem;
+    text-align: center;
+    margin: 3rem;
+}
+.Main-Colum p{
+    font-size: medium;
+}
+button{
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+
+/*Hover al pasar por un item*/
+.Colum-Item:hover {
+    background-color: black;
+    color:#FAC68E ;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color:#FAC68E ;
+    cursor: pointer;
+}
+/*Por seccion tendran un border para dimensionar las secciones correspondientes*/

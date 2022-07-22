@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./Normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- En esta pagina practire lo que son las propiedades de flex
+         Implementare lo que es , tambien, la metodogia bem  y con el paso del tiempo ir "perfeccionandola"   
+    -->
+
+    <Header class="Container-Header">
+        <figure>
+            <img src="./LOGO.png" alt="">
+        </figure>
+    </Header>
+    <main class="Container-Main">
+        <section class="Main-Colum">
+            <h2>
+                Flex colum
+            </h2>
+            <div id="container" class="container">
+                <div class="Colum-Item">
+                    1
+                </div>
+                <div class="Colum-Item">
+                    2
+                </div>
+                <div class="Colum-Item">
+                    3
+                </div>
+                <div class="Colum-Item">
+                    4
+                </div>
+                <div class="Colum-Item">
+                    5
+                </div>
+                <div class="Colum-Item">
+                    6
+                </div>
+            </div>
+            <p>De manera predeterminada empezara en <strong> aling item flex start</strong>>, pero si queremos posicionarlo hacia el centro o izquierda debemos especificar <strong>aling item center o flex-end </strong>></p>
+
+            <div class="Colum-Button">
+                <button onclick="alingStart()">
+                    Start
+                </button>
+                <button onclick="alingCenter()" >
+                    Center
+                </button>
+                <button onclick="alingEnd()">
+                    End
+                </button>
+            </div>
+        </section> 
+    </main>
+</body>
+ <script src="index.js"></script>
+</html>
