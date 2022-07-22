@@ -29,7 +29,7 @@
             <h2>
                 Flex colum
             </h2>
-            <div id="container" class="container">
+            <div id="container-colum" class="container-colum">
                 <div class="Colum-Item">
                     1
                 </div>
@@ -49,7 +49,7 @@
                     6
                 </div>
             </div>
-            <p>De manera predeterminada empezara en <strong> aling item flex start</strong>>, pero si queremos posicionarlo hacia el centro o izquierda debemos especificar <strong>aling item center o flex-end </strong>></p>
+            <p>De manera predeterminada empezara en <strong> aling item flex start</strong>, pero si queremos posicionarlo hacia el centro o izquierda debemos especificar <strong>aling item center o flex-end </strong>></p>
 
             <div class="Colum-Button">
                 <button onclick="alingStart()">
@@ -63,6 +63,44 @@
                 </button>
             </div>
         </section> 
+        <section class="Main-row">
+            <h2>
+                Flex Row
+            </h2>
+            <div id="container-Row" class="container-Row">
+                <div class="Row-Item">
+                    1
+                </div>
+                <div class="Row-Item">
+                    2
+                </div>
+                <div class="Row-Item">
+                    3
+                </div>
+                <div class="Row-Item">
+                    4
+                </div>
+                <div class="Row-Item">
+                    5
+                </div>
+                <div class="Row-Item">
+                    6
+                </div>
+            </div>
+            <p>para el <strong>flex row</strong>, el cual es el predeterimado de display flex, no se aplica <strong>aling item</strong> sino que <strong>Justify Content</strong></p>
+            <div class="Colum-Button">
+                <button onclick="RowStart()">
+                    Start
+                </button>
+                <button onclick="RowCenter()" >
+                    Center
+                </button>
+                <button onclick="RowEnd()">
+                    End
+                </button>
+            </div>
+           
+        </section>
     </main>
 </body>
  <script src="index.js"></script>

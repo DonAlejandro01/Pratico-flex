@@ -22,9 +22,13 @@ Contenedor para main
 main{
 min-height: 100vh;  
 text-align: center;
-}
 
-.Main-Colum .container{
+}
+.Main-Colum{
+    border: 0.1rem solid black;
+    padding: 4rem;
+}
+.Main-Colum .container-colum{
     display: flex; 
     flex-direction: column;
     
@@ -50,14 +54,12 @@ text-align: center;
     margin: 3rem;
 }
 .Main-Colum p{
-    font-size: medium;
+    font-size: large;
 }
 button{
     border-radius: 2rem;
     padding: 2rem;
 }
-
-
 /*Hover al pasar por un item*/
 .Colum-Item:hover {
     background-color: black;
@@ -70,3 +72,39 @@ button:hover{
     cursor: pointer;
 }
 /*Por seccion tendran un border para dimensionar las secciones correspondientes*/
+
+/*Main row*/
+
+.Main-row{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.Main-row .container-Row{
+    display: flex;
+}
+.container-Row .Row-Item{
+    padding: 0.1rem;
+    margin: 1rem;
+    height: auto;
+    width: 10rem;
+    border: 0.1rem solid black;
+    border-radius:3rem;
+    text-align: center;
+    font-size: 2rem;
+}
+.Main-row p{
+    font-size: large;
+}
+
+
+.Row-Item:hover {
+    background-color: black;
+    color:#FAC68E ;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color:#FAC68E ;
+    cursor: pointer;
+}
